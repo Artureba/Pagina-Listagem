@@ -1,0 +1,129 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F0F2F5;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background: #8257e7;
+    padding: 1%;
+    margin-bottom: 13px;
+    justify-content: space-between;
+}
+
+img {
+    width: 50px;
+    margin: 10px;
+}
+
+.conta {
+    display: flex;
+    align-items: center;
+}
+
+.tema {
+    background: #B59BF0;
+    width: 50%;
+    position: relative;
+    bottom: 37px;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tema h3 {
+    margin: 8px;
+}
+
+.pesquisa {
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa input {
+    margin-right: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    width: 62%;
+}
+
+.pesquisa td {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    overflow-y: scroll;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    background-color: #f0f2f5;
+    border: none;
+    height: 62vh;
+}
+
+.card .w-50 {
+    background-color: #ffff;
+    margin: 10px;
+}
+
+.professor {
+    display: flex;
+    align-items: center;
+}
+
+.card-cabecalho{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.descricao {
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.estrelas {
+    display: flex;
+}
+
+.btn-primary {
+    --bs-btn-bg: #04d361;
+    --bs-btn-border-color: #04d361;
+    --bs-btn-hover-bg: #33cc95;
+    --bs-btn-hover-border-color: #33cc95;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    height: 12vh;
+    background-color: #8257E5;
+}
+
+nav a{
+    padding-right: 15px;
+}
